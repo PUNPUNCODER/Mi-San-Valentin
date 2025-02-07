@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+.container {
+    text-align: center;
+}
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+.Mimundo {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #e08787;
+    font-family: 'Pacifico', cursive;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Aumenta el espacio debajo del botón */}
+
+
+
+
+    .regresar {
+        position: fixed;
+        top: 30px;
+        right: 85%;
+        font-size: 1em;
+        padding: 10px 20px;
+        margin-right: 10px;
+        background-color: #764141;
+        font-family: 'Pacifico', cursive;
+        
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;}

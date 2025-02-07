@@ -1,0 +1,70 @@
+/* Contenedor principal ocupa toda la pantalla */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe6e6;
+    font-family: 'Pacifico', cursive;
+    flex-direction: column;
+    font-size: 1.5em;
+  }
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto; /* Activa el scroll vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe6e6;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Contenedor interno */
+.contenido {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Estilos de las tarjetas */
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.tarjetafinal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+
+.regresar {
+    position: fixed;
+    top: 10px;
+    right: 90%;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #764141;
+    font-family: 'Pacifico', cursive;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
